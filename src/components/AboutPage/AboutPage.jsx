@@ -6,7 +6,7 @@ const About = () => {
     <div className='row container mx-auto  my-5 about'>
       {/* aboutPage image */}
       <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-        <img src={aboutImage} className='w-100 h-100 rounded' loading='lazy' />
+        <img src={aboutImage} className='w-100 h-100 rounded'/>
       </div>
 
 

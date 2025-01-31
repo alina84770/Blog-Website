@@ -15,9 +15,6 @@
 }
 
 @media(max-width:450px){
-    .home h1{
-        font-size: 3rem;
-    }
   .home p{
         text-align: justify;
     } 

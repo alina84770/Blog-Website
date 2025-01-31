@@ -5,7 +5,7 @@ const ContactPage = () => {
     return (
         <div className='row container mx-auto my-5 contact'>
             <div className="col-lg-6 col-md-6 col-sm-12">
-                <img src={contactImage} className='w-100 h-100' loading='lazy' />
+                <img src={contactImage} className='w-100 h-100'/>
             </div>
 
             {/* Contact Form */}
