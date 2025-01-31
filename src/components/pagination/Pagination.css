@@ -1,0 +1,21 @@
+.pagination p {
+    color: #ff4500;
+    cursor: pointer;
+}
+
+.pagination button {
+    background-color: #ff4500;
+    color: white;
+}
+
+/* button active styte */
+.activeBtn {
+    border: 2px solid #ff4500;
+    padding: 2px;
+}
+
+@media(max-width:450px){
+    .pagination p{
+        display: none;
+    }
+}

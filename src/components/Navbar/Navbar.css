@@ -1,0 +1,82 @@
+/* navbar logo */
+nav.navbar h1 span {
+    color: #ff4500;
+}
+
+/* menu button */
+button.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* social icons */
+div.social-icons .icon:hover {
+    color: #ff4500;
+}
+
+/* login button */
+nav button.login-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+nav button.login-btn:hover {
+    transform: scale(1.03);
+    background-color: #ec4104;
+    transition: all 0.3s ease-in-out;
+}
+
+/* default links style */
+.default-links {
+    color: white;
+    text-decoration: none;
+}
+
+.default-links:hover {
+    color: white;
+}
+
+/* active links style */
+.active-links {
+    color: #ff4500;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ff4500;
+    border-right: 3px solid #ff4500;
+    border-radius: 0.7rem;
+    outline: none;
+}
+
+.active-links:hover {
+    color: #ff4500;
+}
+
+
+
+
+/* signUp modal */
+.modal .modal-content {
+    box-shadow: 0 0 5px white !important;
+    cursor: pointer;
+}
+
+/* input fields */
+.modal-body form input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.modal-body form button {
+    padding: 0.7rem 0;
+}
+
+.modal-body form button:hover {
+    background-color: #ec4104;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,13 @@
+/* input feilds */
+.contactForm input:focus,.contactForm textarea:focus{
+    box-shadow: none;
+}
+
+/* form button */
+.contactForm button{
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(82, 61, 243);
+}
+

@@ -1,0 +1,8 @@
+.sideBar p:hover {
+    color: orangered;
+}
+
+.sideBar .link,
+.sideBar h2 span {
+    color: orangered !important;
+}

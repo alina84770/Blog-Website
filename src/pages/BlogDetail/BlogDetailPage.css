@@ -1,0 +1,8 @@
+.blogDetail p{
+    text-align: justify;
+}
+@media(max-width:450px){
+    .blogDetail h3{
+        font-size: 1.2rem;
+    }
+}

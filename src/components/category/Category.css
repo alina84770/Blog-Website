@@ -1,0 +1,11 @@
+div.categories p {
+    padding: 0.3rem 0.5rem;
+}
+
+/* active category style */
+.active {
+    border-top: 4px solid #ff4500;
+    border-left: 2px solid #ff4500;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px #ff4500;
+}

@@ -1,0 +1,12 @@
+.about img{
+object-fit: cover;
+}
+
+.about p.aboutHeading{
+    color: #ff4500;
+    font-size: 1.1rem;
+}
+
+.about p.aboutInfo{
+    text-align: justify;
+}

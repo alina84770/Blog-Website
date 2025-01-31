@@ -1,0 +1,14 @@
+div.Banner{
+    padding:  5rem 0;
+}
+div.Banner h1{
+    font-size: 3.5rem;
+}
+div.Banner span{
+    color: #ff4500;
+}
+@media(max-width:450px){
+    div.Banner h1{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,24 @@
+.home {
+    padding: 5rem 0;
+}
+
+.home h1 {
+    font-size: 3.5rem;
+}
+
+.home h1 span {
+    color: #ff4500;
+}
+
+.home button {
+    background-color: #ff4500;
+}
+
+@media(max-width:450px){
+    .home h1{
+        font-size: 3rem;
+    }
+  .home p{
+        text-align: justify;
+    } 
+} 
