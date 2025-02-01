@@ -1,5 +1,6 @@
 div.categories p {
     padding: 0.3rem 0.5rem;
+    cursor: pointer;
 }
 
 /* active category style */

@@ -8,6 +8,7 @@ import Blog from './pages/Blog.jsx';
 import About from './pages/About.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import BlogDetailPage from './pages/BlogDetail/BlogDetailPage.jsx';
+import PageNotFound from './components/PageNotFound.jsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -42,9 +43,13 @@ function App() {
         {
           path:'/blog/:id',
           element:<BlogDetailPage/>
-        }
+        },
+        {
+          path:'*',
+          element:<PageNotFound/>
+        } 
       ]
-        
+       
     }
   ]);
   
