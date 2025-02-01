@@ -8,51 +8,46 @@ import Blog from './pages/Blog.jsx';
 import About from './pages/About.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import BlogDetailPage from './pages/BlogDetail/BlogDetailPage.jsx';
-import PageNotFound from './components/PageNotFound.jsx';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element:<>
-      <Navbar />
-      <Footer/>
+      element: <>
+        <Navbar />
+        <Footer />
       </>,
-      
-      children:[
+
+      children: [
         {
-          path:'/',
-          element:<Home/>
+          path: '/',
+          element: <Home />
         },
         {
-          path:'/about',
-          element:<About/>
+          path: '/about',
+          element: <About />
         },
         {
-          path:'/blog',
-          element:<Blog/>
+          path: '/blog',
+          element: <Blog />
         },
         {
-          path:'/services',
-          element:<Services/>
+          path: '/services',
+          element: <Services />
         },
         {
-          path:'/contact',
-          element:<Contact/>
+          path: '/contact',
+          element: <Contact />
         },
         {
-          path:'/blog/:id',
-          element:<BlogDetailPage/>
-        },
-        {
-          path:'*',
-          element:<PageNotFound/>
-        } 
+          path: '/blog/:id',
+          element: <BlogDetailPage />
+        }
       ]
-       
+
     }
   ]);
-  
+
   return (
     <RouterProvider router={router} ></RouterProvider>
   )
